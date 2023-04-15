@@ -7,10 +7,10 @@
              tools:context=".Fragment2">
 
     <TextView
-            android:text="FRAGMENT 2"
+            android:text="@string/fragment_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/textView" android:textColor="#FF0000"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="100dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="50dp"
             app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="200dp" android:textSize="34sp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
